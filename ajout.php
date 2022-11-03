@@ -41,10 +41,10 @@
                                 <input type="text" name="adresse" placeholder=" Adresse..."  required>
                                 <input type="text" name="ville" placeholder=" Ville..."  required>
                                 <input type="text" name="codepostal" placeholder=" Code Postal"  required>
-                                <input type="text" name="annee" placeholder=" Année de rentré...( 1 , 2 , 3 , Master )"  required>
-                                <input type="text" name="spe" placeholder="Specialité potentiel... (Dev, CG, S2M, EB)"  required>
-                                <input type="text" name="situation" placeholder="Situation actuel..."  required>
-                              <input type="text" name="commentaire" placeholder="COmmentaires a ajouter... ( facultatif)"  required>
+                                <input type="text" name="annee" placeholder=" Année de rentrée...(écrivez 1 ou 2 ou 3 ou Master )"  required>
+                                <input type="text" name="spe" placeholder="Specialité potentielle... (écrivez Dev ou CG ou S2M ou EB)"  required>
+                                <input type="text" name="situation" placeholder="Situation actuelle...(écrivez Lycée ou Bac+.. ou Parent)"  required>
+                              <input type="text" name="commentaire" placeholder="Commentaires a ajouter... ( facultatif)"  required>
                             <button class="bouton-form" name="bouton-sauvegarder"> Sauvegarder </button>
                         </form>
 </div>

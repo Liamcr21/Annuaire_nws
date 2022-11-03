@@ -181,7 +181,7 @@
 </div>
 
 
-<button class="accordion">Année souhaiter</button>
+<button class="accordion">Année souhaitée</button>
 <div class="panel">
 <table class="table-liste">
                             <tr class="titre-tr">
@@ -203,7 +203,7 @@
                         </table>
 </div>
 
-<button class="accordion">Spécialités souhaiter</button>
+<button class="accordion">Spécialité souhaité</button>
 <div class="panel">
 <table class="table-liste">
                             <tr class="titre-tr">

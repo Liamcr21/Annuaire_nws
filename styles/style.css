@@ -301,7 +301,25 @@ table {
   }
   
   
+  .recherche input[type=submit]{
+    margin-left: 47%;
+    margin-right: 47%;
+    text-decoration: none;
+    color: black;
+    background-color: #00a5a5;
+    padding: 15px;
+  }
   
+  
+  .recherche input[type=text] {
+    margin-left: 34%;
+    margin-right: 34%;
+    width: 30%;
+    padding: 6px;
+    font-size: 17px;
+    background-color: #ccc;
+    border: 1px solid black;
+  }
 
 
 
@@ -311,7 +329,7 @@ table {
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  text-align: left;
+  text-align: center;
   border: none;
   outline: none;
   transition: 0.4s;

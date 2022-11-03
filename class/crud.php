@@ -26,7 +26,7 @@
 
                 if($this->requette_ajout($nom,$prenom,$tel,$mail,$age,$adresse,$ville,$codepostal,$annee,$spe,$situation,$commentaire))
                 {
-                    echo '<div class="bon"> Etudiant sauvegarder avec succès  </div>';
+                    echo '<div class="bon"> Etudiant sauvegardé avec succès  </div>';
                 }
                 else
                 {
