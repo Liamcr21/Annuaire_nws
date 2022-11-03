@@ -5,6 +5,12 @@
     $db = new requettes();
     $vnom=$db->voir_nom();
     $vprenom=$db->voir_prenom();
+    $vtel=$db->voir_tel();
+    $vmail=$db->voir_mail();
+    $vville=$db->voir_ville();
+    $vcodepostal=$db->voir_codepostal();
+    $vannee=$db->voir_annee();
+    $vspe=$db->voir_spe();
 ?>
 
 <!DOCTYPE html>
@@ -83,6 +89,144 @@
                                 ?>
                         </table>
 </div>
+
+<button class="accordion">Téléphone</button>
+<div class="panel">
+<table class="table-liste">
+                            <tr class="titre-tr">
+                                <td > ID </td>
+                                <td > Téléphone </td>
+                            </tr>
+                            <tr>
+                                <?php 
+                                    while($data = mysqli_fetch_assoc($vtel))
+                                    {
+                                ?>
+                                    <td><?php echo $data['ID'] ?></td>
+                                    <td><?php echo $data['tel'] ?></td>
+                                   
+                            </tr>
+                            <?php
+                                    }
+                                ?>
+                        </table>
+</div>
+
+
+<button class="accordion">Mail</button>
+<div class="panel">
+<table class="table-liste">
+                            <tr class="titre-tr">
+                                <td > ID </td>
+                                <td > Mail </td>
+                            </tr>
+                            <tr>
+                                <?php 
+                                    while($data = mysqli_fetch_assoc($vmail))
+                                    {
+                                ?>
+                                    <td><?php echo $data['ID'] ?></td>
+                                    <td><?php echo $data['mail'] ?></td>
+                                   
+                            </tr>
+                            <?php
+                                    }
+                                ?>
+                        </table>
+</div>
+
+<button class="accordion">Ville</button>
+<div class="panel">
+<table class="table-liste">
+                            <tr class="titre-tr">
+                                <td > ID </td>
+                                <td > Ville </td>
+                            </tr>
+                            <tr>
+                                <?php 
+                                    while($data = mysqli_fetch_assoc($vville))
+                                    {
+                                ?>
+                                    <td><?php echo $data['ID'] ?></td>
+                                    <td><?php echo $data['ville'] ?></td>
+                                   
+                            </tr>
+                            <?php
+                                    }
+                                ?>
+                        </table>
+</div>
+
+
+<button class="accordion">Code Postal</button>
+<div class="panel">
+<table class="table-liste">
+                            <tr class="titre-tr">
+                                <td > ID </td>
+                                <td > Code Postal </td>
+                            </tr>
+                            <tr>
+                                <?php 
+                                    while($data = mysqli_fetch_assoc($vcodepostal))
+                                    {
+                                ?>
+                                    <td><?php echo $data['ID'] ?></td>
+                                    <td><?php echo $data['codepostal'] ?></td>
+                                   
+                            </tr>
+                            <?php
+                                    }
+                                ?>
+                        </table>
+</div>
+
+
+<button class="accordion">Année souhaiter</button>
+<div class="panel">
+<table class="table-liste">
+                            <tr class="titre-tr">
+                                <td > ID </td>
+                                <td > Année souhaiter </td>
+                            </tr>
+                            <tr>
+                                <?php 
+                                    while($data = mysqli_fetch_assoc($vannee))
+                                    {
+                                ?>
+                                    <td><?php echo $data['ID'] ?></td>
+                                    <td><?php echo $data['annee'] ?></td>
+                                   
+                            </tr>
+                            <?php
+                                    }
+                                ?>
+                        </table>
+</div>
+
+<button class="accordion">Spécialités souhaiter</button>
+<div class="panel">
+<table class="table-liste">
+                            <tr class="titre-tr">
+                                <td > ID </td>
+                                <td > Spécialités souhaiter </td>
+                            </tr>
+                            <tr>
+                                <?php 
+                                    while($data = mysqli_fetch_assoc($vspe))
+                                    {
+                                ?>
+                                    <td><?php echo $data['ID'] ?></td>
+                                    <td><?php echo $data['spe'] ?></td>
+                                   
+                            </tr>
+                            <?php
+                                    }
+                                ?>
+                        </table>
+</div>
+
+
+
 
 
 

@@ -76,6 +76,54 @@
             return $vprenom;
         }
 
+        public function voir_tel()
+        {
+            global $db;
+            $query = "select * from etudiant";
+            $vtel = mysqli_query($db->connection,$query);
+            return $vtel;
+        }
+
+        public function voir_mail()
+        {
+            global $db;
+            $query = "select * from etudiant";
+            $vmail = mysqli_query($db->connection,$query);
+            return $vmail;
+        }
+
+        public function voir_ville()
+        {
+            global $db;
+            $query = "select * from etudiant";
+            $vville = mysqli_query($db->connection,$query);
+            return $vville;
+        }
+
+        public function voir_codepostal()
+        {
+            global $db;
+            $query = "select * from etudiant";
+            $vcodepostal = mysqli_query($db->connection,$query);
+            return $vcodepostal;
+        }
+
+        public function voir_annee()
+        {
+            global $db;
+            $query = "select * from etudiant";
+            $vannee = mysqli_query($db->connection,$query);
+            return $vannee;
+        }
+
+        public function voir_spe()
+        {
+            global $db;
+            $query = "select * from etudiant";
+            $vspe = mysqli_query($db->connection,$query);
+            return $vspe;
+        }
+
         public function requette_id($id)
         {
             global $db;
