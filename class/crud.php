@@ -38,8 +38,8 @@
         function requette_ajout($a,$b,$c,$d,$e,$f,$g,$h,$i,$j,$k,$l)
         {
             global $db;
-            $query = "insert into etudiant (nom,prenom, tel,mail,age,adresse,ville,codepostal,annee,spe,situation,commentaire) values('$a','$b','$c','$d','$e','$f','$g','$h','$i','$j','$k','$l')";
-            $result = mysqli_query($db->connection,$query);
+            $requette = "insert into etudiant (nom,prenom, tel,mail,age,adresse,ville,codepostal,annee,spe,situation,commentaire) values('$a','$b','$c','$d','$e','$f','$g','$h','$i','$j','$k','$l')";
+            $result = mysqli_query($db->connection,$requette);
 
             if($result)
             {
@@ -55,72 +55,72 @@
         public function voir_tout()
         {
             global $db;
-            $query = "select * from etudiant";
-            $result = mysqli_query($db->connection,$query);
+            $requette = "select * from etudiant";
+            $result = mysqli_query($db->connection,$requette);
             return $result;
         }
 
         public function voir_nom()
         {
             global $db;
-            $query = "select * from etudiant";
-            $vnom = mysqli_query($db->connection,$query);
+            $requette = "select * from etudiant";
+            $vnom = mysqli_query($db->connection,$requette);
             return $vnom;
         }
 
         public function voir_prenom()
         {
             global $db;
-            $query = "select * from etudiant";
-            $vprenom = mysqli_query($db->connection,$query);
+            $requette = "select * from etudiant";
+            $vprenom = mysqli_query($db->connection,$requette);
             return $vprenom;
         }
 
         public function voir_tel()
         {
             global $db;
-            $query = "select * from etudiant";
-            $vtel = mysqli_query($db->connection,$query);
+            $requette = "select * from etudiant";
+            $vtel = mysqli_query($db->connection,$requette);
             return $vtel;
         }
 
         public function voir_mail()
         {
             global $db;
-            $query = "select * from etudiant";
-            $vmail = mysqli_query($db->connection,$query);
+            $requette = "select * from etudiant";
+            $vmail = mysqli_query($db->connection,$requette);
             return $vmail;
         }
 
         public function voir_ville()
         {
             global $db;
-            $query = "select * from etudiant";
-            $vville = mysqli_query($db->connection,$query);
+            $requette = "select * from etudiant";
+            $vville = mysqli_query($db->connection,$requette);
             return $vville;
         }
 
         public function voir_codepostal()
         {
             global $db;
-            $query = "select * from etudiant";
-            $vcodepostal = mysqli_query($db->connection,$query);
+            $requette = "select * from etudiant";
+            $vcodepostal = mysqli_query($db->connection,$requette);
             return $vcodepostal;
         }
 
         public function voir_annee()
         {
             global $db;
-            $query = "select * from etudiant";
-            $vannee = mysqli_query($db->connection,$query);
+            $requette = "select * from etudiant";
+            $vannee = mysqli_query($db->connection,$requette);
             return $vannee;
         }
 
         public function voir_spe()
         {
             global $db;
-            $query = "select * from etudiant";
-            $vspe = mysqli_query($db->connection,$query);
+            $requette = "select * from etudiant";
+            $vspe = mysqli_query($db->connection,$requette);
             return $vspe;
         }
 
@@ -187,8 +187,8 @@
         public function supp_et($id)
         {
             global $db;
-            $query = "delete from etudiant where ID='$id'";
-            $result = mysqli_query($db->connection,$query);
+            $requette = "delete from etudiant where ID='$id'";
+            $result = mysqli_query($db->connection,$requette);
             if($result)
             {
                 return true;
