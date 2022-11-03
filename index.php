@@ -20,7 +20,6 @@
             <li class="navbar-link lien"><a href="liste.php">Liste des étudiants</a></li>
             <li class="navbar-link lien"><a href="rechercher.php">Rechercher un étudiant</a></li>
             <li class="navbar-link lien"><a href="filtrer.php">Filtrer les catégories</a></li>
-            <li class="navbar-link lien"><a href="logout.php">Déconnexion</a></li>
         </ul>
 
         <button class="burger">
