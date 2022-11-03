@@ -60,6 +60,22 @@
             return $result;
         }
 
+        public function voir_nom()
+        {
+            global $db;
+            $query = "select * from etudiant";
+            $vnom = mysqli_query($db->connection,$query);
+            return $vnom;
+        }
+
+        public function voir_prenom()
+        {
+            global $db;
+            $query = "select * from etudiant";
+            $vprenom = mysqli_query($db->connection,$query);
+            return $vprenom;
+        }
+
         public function requette_id($id)
         {
             global $db;
