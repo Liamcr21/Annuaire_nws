@@ -46,14 +46,14 @@
                                 <?php echo $data['prenom']; ?><input type="text" name="prenom" placeholder="Ancien ou nouveau prénom..."  required>
                                 <?php echo $data['tel']; ?> <input type="text" name="tel" placeholder="Ancien ou nouveau n° téléphone..."  required>
                                 <?php echo $data['mail']; ?><input type="email" name="mail" placeholder="Ancien ou nouveau mail..." required>
-                                <?php echo $data['age']; ?><input type="text" name="age" placeholder="Ancienne ou nouvelle âge..." required>
+                                <?php echo $data['age']; ?><input type="text" name="age" placeholder="Ancien ou nouvel âge..." required>
                                 <?php echo $data['adresse']; ?><input type="text" name="adresse" placeholder="Ancienne ou nouvelle adresse..."  required>
                                 <?php echo $data['ville']; ?> <input type="text" name="ville" placeholder="Ancienne ou nouvelle ville..."  required>
                                 <?php echo $data['codepostal']; ?><input type="text" name="codepostal" placeholder="Ancien ou nouveau code postal"  required>
-                                <?php echo $data['annee']; ?><input type="text" name="annee" placeholder="Ancienne ou nouvelle année de rentré...( 1 , 2 , 3 , Master )"  required>
-                                <?php echo $data['spe']; ?><input type="text" name="spe" placeholder="Ancienne ou nouvelle specialité potentiel... (Dev, CG, S2M, EB)"  required>
-                                <?php echo $data['situation']; ?> <input type="text" name="situation" placeholder="Ancienne ou nouvelle situation actuel..."  required>
-                                <?php echo $data['commentaire']; ?><input type="text" name="commentaire" placeholder="Ancien ou nouveau commentaires a ajouter... ( facultatif)" >
+                                <?php echo $data['annee']; ?><input type="text" name="annee" placeholder="Ancienne ou nouvelle année de rentrée...(écrivez 1 ou 2 ou 3 ou Master )"  required>
+                                <?php echo $data['spe']; ?><input type="text" name="spe" placeholder="Ancienne ou nouvelle specialitée potentielle... (écrivez Dev ou CG ou S2M ou EB)"  required>
+                                <?php echo $data['situation']; ?> <input type="text" name="situation" placeholder="Ancienne ou nouvelle situation actuelle...(écrivez Lycée ou Bac+.. ou Parent)"  required>
+                                <?php echo $data['commentaire']; ?><input type="text" name="commentaire" placeholder="Ancien ou nouveau commentaire à ajouter... ( facultatif)">
                     
                             <button class="bouton-form" name="bouton-modif"> Modifier </button>
                         </form>

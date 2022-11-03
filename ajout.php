@@ -44,7 +44,7 @@
                                 <input type="text" name="annee" placeholder=" Année de rentrée...(écrivez 1 ou 2 ou 3 ou Master )"  required>
                                 <input type="text" name="spe" placeholder="Specialité potentielle... (écrivez Dev ou CG ou S2M ou EB)"  required>
                                 <input type="text" name="situation" placeholder="Situation actuelle...(écrivez Lycée ou Bac+.. ou Parent)"  required>
-                              <input type="text" name="commentaire" placeholder="Commentaires a ajouter... ( facultatif)"  >
+                              <input type="text" name="commentaire" placeholder="Commentaires a ajouter... ( facultatif)">
                             <button class="bouton-form" name="bouton-sauvegarder"> Sauvegarder </button>
                         </form>
 </div>
