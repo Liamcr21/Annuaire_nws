@@ -54,7 +54,7 @@
                                 <td >Code Postal </td>
                                 <td > Année de rentrée </td>
                                 <td > Spécialité souhaitée </td>
-                                <td > Situation actuelle <td>
+                                <td > Situation actuelle </td>
                                 <td > Commentaire </td>
                                 <td class="table-interaction1">Modifier</td>
                                 <td class="table-interaction2">Supprimer</td>
