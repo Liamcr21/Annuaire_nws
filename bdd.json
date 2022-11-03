@@ -1,6 +1,6 @@
 {
     "server" : "localhost",
-    "database" : "annuaire_nws",
+    "dbname" : "annuaire_nws",
     "user" : "root",
     "password" : ""
 }
