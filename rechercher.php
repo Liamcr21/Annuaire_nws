@@ -308,6 +308,7 @@ if (isset($_POST["bouton-age"])) {
 
 ?>
 </div>
-
+<script  src="./js/accordeon.js"></script>
+<script  src="./js/navbar.js"></script>
 </body>
 </html>

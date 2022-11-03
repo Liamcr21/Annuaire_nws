@@ -234,5 +234,6 @@
 
 
 <script  src="./js/accordeon.js"></script>
+<script  src="./js/navbar.js"></script>
 </body>
 </html>

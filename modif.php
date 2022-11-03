@@ -58,5 +58,7 @@
                             <button class="bouton-form" name="bouton-modif"> Modifier </button>
                         </form>
                         </div>
+<script  src="./js/accordeon.js"></script>
+<script  src="./js/navbar.js"></script>
 </body>
 </html>

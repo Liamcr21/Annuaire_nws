@@ -48,5 +48,10 @@
                             <button class="bouton-form" name="bouton-sauvegarder"> Sauvegarder </button>
                         </form>
 </div>
+
+
+
+<script  src="./js/accordeon.js"></script>
+<script  src="./js/navbar.js"></script>
 </body>
 </html>
