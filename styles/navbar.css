@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* NAVBAR */
+
+
+.navbar-link {
+    padding: 0 40px;
+}
+.navbar-link > a {
+    color:black;
+    text-decoration: none;
+    font-family: erbaum, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.navbar-link > .nav-active {
+    color:black;
+    text-decoration: none;
+    font-family: erbaum, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.burger {
+    display: none;
+}
+
+header{
+    height: 15vh;
+}
+.navbar {
+    background-color: rgb(214, 209, 209);
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 15vh;
+    color:black;
+    transition: all .7s ease-in-out;
+
+  
+}
+.navbar-links {
+    display: flex;
+}
+
+.lien{
+    position: relative;
+}
+
+
+
+
+ul {
+    list-style: none;
+    position: relative;
+}
+
+/* Logo Style */
+.nav-logo{
+    position: relative;
+    left: 5%;
+}
+.logo{
+    height: 4em;
+    z-index: 0;
+}
+
+/* Small Devices */
+@media screen and (max-width:1149.98px) {
+    *{
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .main-content h1{
+        font-size: 40px;
+        z-index: -100000;
+    }   
+
+    .navbar-links {
+        justify-content: center;
+        background-color:#0f2436;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 0;
+        height:100vh;
+        position: absolute;
+        top: 0vh;
+        right: 0;
+        transition: all .4s ease-in-out;
+    }
+
+    .navbar-links li{
+        position: relative;
+        top: 1.5em;
+    }
+
+    .show-nav .navbar-links {
+    width: 100%;
+    }
+    .navbar-link {
+        transform: translateX(101%);
+    }
+
+    .show-nav .navbar-link {
+        transform: translateX(0);
+    }
+    .navbar-link > a {
+        color: black;
+        display: block;
+        padding: 1rem;
+        font-size: 1.8rem;
+        transition:all .4s ease-in-out;
+    }
+    .navbar-link > a:hover {
+            padding: 2rem;
+            letter-spacing: 5px;
+            
+    }
+    
+
+
+/* Toggle menu */
+    .burger {
+        display: block;
+        position: relative;
+        right: 5%;
+        padding: 0;
+        width: 45px;
+        height: 45px;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+    .bar {
+        display: block;
+        width: 45px;
+        height: 4px;
+        background: #0f2436;
+        border-radius: 3px;
+        transition: all .4s ease-in-out;
+    }
+    .show-nav .bar {
+        overflow: hidden;
+        width: 0;
+        background: transparent;
+    }
+    .bar::before, .bar::after {
+        content: "";
+        width: 45px;
+        height: 4px;
+        position: absolute;
+        left: 0;
+        background: black;
+        border-radius: 3px;
+        transition: all .4s ease-in-out;
+    }
+    .bar::before {
+        transform:translateY(-12px);
+    }
+    .show-nav .bar::before {
+        transform: rotate(45deg);
+    }
+    .bar::after {
+        transform:translateY(12px);
+    }
+    .show-nav .bar::after {
+        transform: rotate(-45deg);
+    }
+
+
+/* Animations */
+    .show-nav .first {
+        transition: all 1s ease-out;
+    }
+    .show-nav .second {
+        transition: all 1.2s ease-out;
+    }
+    .show-nav .third {
+        transition: all 1.3s ease-out;
+    }
+    .show-nav .fourth {
+        transition: all 1.4s ease-out;
+    }
+    .show-nav .fifth {
+        transition: all 1.5s ease-out;
+    }
+}
+/* Medium devices */
+@media screen and (min-width:820px){
+    .navbar-link> .jaune:after{
+        display: block;
+        content: "";
+        width: 0;
+        height: 3px;
+        background: #fec800;
+        transition:width .4s;
+    }
+
+    .navbar-link> .rouge:after{
+        display: block;
+        content: "";
+        width: 0;
+        height: 3px;
+        background: #e94a34;
+        transition:width .4s;
+    }
+
+    .navbar-link> .bleu:after{
+        display: block;
+        content: "";
+        width: 0;
+        height: 3px;
+        background: #00a5a5;
+        transition:width .4s;
+    }
+
+    .navbar-link> .jaune:hover{
+      color: #fec800;
+    }
+
+    .navbar-link> .rouge:hover{
+        color: #e94a34;
+    }
+
+    .navbar-link> .bleu:hover{
+        color: #00a5a5;
+    }
+    .navbar-link:hover > a:after {
+        width: 100%;
+    }
+}
