@@ -1,5 +1,6 @@
 <?php 
     require_once('./class/bdd.php'); 
+    require_once('./class/crud.php'); 
     $db = new requettes();
 ?>
 <!DOCTYPE html>

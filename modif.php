@@ -1,3 +1,14 @@
+
+<?php 
+    require_once('./class/bdd.php'); 
+    require_once('./class/crud.php'); 
+    $db = new requettes();
+    $db->modif();
+    $id = $_GET['U_ID'];
+    $result = $db->requette_id($id);
+    $data = mysqli_fetch_assoc($result);
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>

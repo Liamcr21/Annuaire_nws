@@ -1,6 +1,7 @@
 <?php 
     
     require_once('./class/bdd.php'); 
+    require_once('./class/crud.php'); 
     $db = new requettes();
     $result=$db->voir_tout();
 ?>
