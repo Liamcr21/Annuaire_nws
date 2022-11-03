@@ -33,3 +33,58 @@
             <span class="bar"></span>
         </button>
     </nav>
+
+
+    
+    <h2 class="titre-liste">Liste des étudiants</h2>
+                        <?php
+                              $db->affichage_message_ok(); 
+                              $db->affichage_message_ok();
+                        ?>
+                        <table class="table-liste">
+                            <tr class="titre-tr">
+                                <td > ID </td>
+                                <td > Nom </td>
+                                <td > Prénom </td>
+                                <td > Téléphone </td>
+                                <td > Mail </td>
+                                <td > Age </td>
+                                <td >Adresse </td>
+                                <td > Ville </td>
+                                <td >Code Postal </td>
+                                <td > Année de rentrée </td>
+                                <td > Spécialité souhaiter </td>
+                                <td > Situation actuel </td>
+                                <td > Commentaire </td>
+                                <td class="table-interaction1">Modifier</td>
+                                <td class="table-interaction2">Supprimer</td>
+                            </tr>
+                            <tr>
+                                <?php 
+                                    while($data = mysqli_fetch_assoc($result))
+                                    {
+                                ?>
+                                    <td><?php echo $data['ID'] ?></td>
+                                    <td><?php echo $data['nom'] ?></td>
+                                    <td><?php echo $data['prenom'] ?></td>
+                                    <td><?php echo $data['tel'] ?></td>
+                                    <td><?php echo $data['mail'] ?></td>
+                                    <td><?php echo $data['age'] ?></td>
+                                    <td><?php echo $data['adresse'] ?></td>
+                                    <td><?php echo $data['ville'] ?></td>
+                                    <td><?php echo $data['codepostal'] ?></td>
+                                    <td><?php echo $data['annee'] ?></td>
+                                    <td><?php echo $data['spe'] ?></td>
+                                    <td><?php echo $data['situation']?></td>
+                                    <td><?php echo $data['commentaire'] ?></td>
+                                    <td><a href="modif.php?U_ID=<?php echo $data['ID'] ?>" class="bouton-modif none">Modifier</a></td>
+                                    <td><a href="supp.php?D_ID=<?php echo $data['ID'] ?>" class="bouton-sup none">Supprimer</a></td>
+                            </tr>
+                            <?php
+                                    }
+                                ?>
+                        </table>
+
+
+                        </body>
+</html>
