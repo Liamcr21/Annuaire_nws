@@ -27,3 +27,30 @@
             <span class="bar"></span>
         </button>
     </nav>  
+
+
+
+    <div class="all-acc">
+  
+    <div class="col-index" >
+        
+       <a href="ajout.php" class="none">
+         <div class="carre1">
+            <h2 class="titre-car">Ajouter un étudiant</h2>
+            <img src="img/ajout.png" class="img-carre">
+        </div>
+        </a>
+        <h1 class="titre-acc">Annuaire NWS<h1>
+        <a href="liste.php" class="none">
+        <div class="carre2">
+        <h2 class="titre-car">Liste des étudiants</h2>
+            <img src="img/liste.png" class="img-carre">
+        </div>
+        </a>
+    </div>
+
+    </div>
+
+    
+</body>
+</html>
