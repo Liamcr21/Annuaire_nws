@@ -1,3 +1,7 @@
+<?php 
+    require_once('./class/bdd.php'); 
+    $db = new requettes();
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>

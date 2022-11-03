@@ -1,3 +1,10 @@
+<?php 
+    
+    require_once('./class/bdd.php'); 
+    $db = new requettes();
+    $result=$db->voir_tout();
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
