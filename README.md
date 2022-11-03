@@ -1,4 +1,4 @@
 # NWS-annuaire
 # Pas de responsive
-# Pas réussi json (-1point)
+# Pas réussi json avec ma class de base(-1point)
 # Pas de test unitaire
