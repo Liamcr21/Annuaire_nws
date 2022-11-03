@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+  background-color: white;
+}
+
+
+
+.titre-acc{
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+    font-family: erbaum, sans-serif;
+    font-weight: 500;
+      font-style: normal;
+      font-size: 50px;
+      color: #e94a34;
+}
+
+  .col-index{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  .carre1{
+    width: 220px;
+    height: 220px;
+    background-color: #fec800;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  
+  .carre2{
+    width: 220px;
+    height: 220px;
+    background-color: #00a5a5;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+
+  .img-carre{
+    margin-top: 10%;
+    width: 40%;
+  }
+
+  .titre-car{
+    font-family: erbaum, sans-serif;
+    font-weight: 500;
+      font-style: normal;
+      font-size: 20px;
+  }
+  
+
+
+
+  .form-ajout {
+    margin: auto;
+    margin-top: 3%;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #00a5a5;
+    padding: 20px;
+  }
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+.bouton-form {
+  background-color: #fec800;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.bouton-form:hover {
+  background-color: #e94a34;
+ 
+}
+
+
+
+.titre-form{
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+    font-family: erbaum, sans-serif;
+    font-weight: 500;
+      font-style: normal;
+      font-size: 30px;
+      color: black;
+}
+
+  
+input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    }
+  
+    input[type=tel], select, textarea {
+      width: 100%; 
+      padding: 12px; 
+      border: 1px solid #ccc; 
+      border-radius: 4px; 
+      box-sizing: border-box; 
+      margin-top: 6px; 
+      margin-bottom: 16px; 
+      resize: vertical;
+      }
+
+
+
+      
+table {
+    margin: auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  .table-recherche{
+    margin: auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  .titre-tr{
+    border: 1px solid black;
+    background-color: #00a5a5;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 15px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ccc;
+  }
+  
+  
+  .table-interaction1{
+  background-color: #fec800;
+  }
+  
+  .table-interaction2{
+    background-color: #e94a34;
+    }
+  
+    .bouton-modif{
+      text-decoration: none;
+      color: black;
+      padding: 8px;
+      background-color: #fec800;
+    }
+  
+    .bouton-sup{
+      text-decoration: none;
+      color: black;
+      background-color: #e94a34;
+      padding: 8px;
+    }
+  
+    .titre-liste{
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+          font-family: erbaum, sans-serif;
+          font-weight: 500;
+            font-style: normal;
+            font-size: 30px;
+            color: black;
+    }
+  
+    
+    .titre-modif{
+      text-align: center;
+      margin-top: 2%;
+      margin-bottom: 2%;
+        font-family: erbaum, sans-serif;
+        font-weight: 500;
+          font-style: normal;
+          font-size: 30px;
+          color: black;
+  }
+  
+  
+  
+  .form-modif {
+    margin: auto;
+    margin-top: 3%;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #00a5a5;
+    padding: 20px;
+  }
+  
+  
+  input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+  }
+  
+  input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    }
+  
+    input[type=tel], select, textarea {
+      width: 100%; 
+      padding: 12px; 
+      border: 1px solid #ccc; 
+      border-radius: 4px; 
+      box-sizing: border-box; 
+      margin-top: 6px; 
+      margin-bottom: 16px; 
+      resize: vertical;
+      }
+    
+  
+  .bouton-form {
+  background-color: #fec800;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+  .bouton-form:hover {
+  background-color: #e94a34;
+  
+  }
+  
+  .bon{
+      text-align: center;
+      margin-top: 2%;
+      margin-bottom: 2%;
+        font-family: erbaum, sans-serif;
+        font-weight: 500;
+          font-style: normal;
+          font-size: 20px;
+          color: greenyellow;
+  }
+  
+  .erreur{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+      font-family: erbaum, sans-serif;
+      font-weight: 500;
+        font-style: normal;
+        font-size: 20px;
+        color: red;
+  }
+  
+  
+  .recherche input[type=submit]{
+    margin-left: 47%;
+    margin-right: 47%;
+    text-decoration: none;
+    color: black;
+    background-color: #00a5a5;
+    padding: 15px;
+  }
+  
+  
+  .recherche input[type=text] {
+    margin-left: 34%;
+    margin-right: 34%;
+    width: 30%;
+    padding: 6px;
+    font-size: 17px;
+    background-color: #ccc;
+    border: 1px solid black;
+  }
+
+
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
