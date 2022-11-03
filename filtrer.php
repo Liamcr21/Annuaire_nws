@@ -1,8 +1,10 @@
 <?php 
     
     require_once('./class/bdd.php'); 
+    require_once('./class/crud.php'); 
     $db = new requettes();
-    $result=$db->voir_tout();
+    $vnom=$db->voir_nom();
+    $vprenom=$db->voir_prenom();
 ?>
 
 <!DOCTYPE html>
@@ -11,8 +13,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/styleall.css">
-    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/navbar.css">
     <title>Annuaire NWS</title>
 </head>
 <body>
@@ -40,18 +42,50 @@
     <h2 class="titre-liste">Filtrer par catégories</h2>
     <button class="accordion">Nom</button>
 <div class="panel">
- 
+<table class="table-liste">
+                            <tr class="titre-tr">
+                                <td > ID </td>
+                                <td > Nom </td>
+                            </tr>
+                            <tr>
+                                <?php 
+                                    while($data = mysqli_fetch_assoc($vnom))
+                                    {
+                                ?>
+                                    <td><?php echo $data['ID'] ?></td>
+                                    <td><?php echo $data['nom'] ?></td>
+                                   
+                            </tr>
+                            <?php
+                                    }
+                                ?>
+                        </table>
 </div>
 
-<button class="accordion">Prenom</button>
+<button class="accordion">Prénom</button>
 <div class="panel">
- 
+<table class="table-liste">
+                            <tr class="titre-tr">
+                                <td > ID </td>
+                                <td > Prénom </td>
+                            </tr>
+                            <tr>
+                                <?php 
+                                    while($data = mysqli_fetch_assoc($vprenom))
+                                    {
+                                ?>
+                                    <td><?php echo $data['ID'] ?></td>
+                                    <td><?php echo $data['prenom'] ?></td>
+                                   
+                            </tr>
+                            <?php
+                                    }
+                                ?>
+                        </table>
 </div>
 
-<button class="accordion">Téléphone</button>
-<div class="panel">
 
-</div>
+
 
 
 
