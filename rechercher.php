@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/navbar.css">
-    <title>Annuaire NWS</title>
+    <title>Recherche un étudiant</title>
 </head>
 <body>
 
