@@ -68,4 +68,73 @@ body{
   
 
 
+
+  .form-ajout {
+    margin: auto;
+    margin-top: 3%;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #00a5a5;
+    padding: 20px;
+  }
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+.bouton-form {
+  background-color: #fec800;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.bouton-form:hover {
+  background-color: #e94a34;
+ 
+}
+
+
+
+.titre-form{
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+    font-family: erbaum, sans-serif;
+    font-weight: 500;
+      font-style: normal;
+      font-size: 30px;
+      color: black;
+}
+
   
+input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    }
+  
+    input[type=tel], select, textarea {
+      width: 100%; 
+      padding: 12px; 
+      border: 1px solid #ccc; 
+      border-radius: 4px; 
+      box-sizing: border-box; 
+      margin-top: 6px; 
+      margin-bottom: 16px; 
+      resize: vertical;
+      }

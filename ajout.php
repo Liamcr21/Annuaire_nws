@@ -25,3 +25,24 @@
             <span class="bar"></span>
         </button>
     </nav> 
+    <div class="form-ajout">
+                        <h2 class="titre-form"> Etudiant :  </h2>
+                        <?php $db->ajout_et(); ?>
+                            <form method="POST">
+                                <input type="text" name="nom" placeholder="Nom..."  required>
+                                <input type="text" name="prenom" placeholder="Prénom..."  required>
+                                <input type="tel" name="tel" placeholder=" N° téléphone...(0123456789)" pattern="[0-9]{10}" required>
+                                <input type="email" name="mail" placeholder="Mail..."  required>
+                                <input type="text" name="age" placeholder=" Age..."  required>
+                                <input type="text" name="adresse" placeholder=" Adresse..."  required>
+                                <input type="text" name="ville" placeholder=" Ville..."  required>
+                                <input type="text" name="codepostal" placeholder=" Code Postal"  required>
+                                <input type="text" name="annee" placeholder=" Année de rentré...( 1 , 2 , 3 , Master )"  required>
+                                <input type="text" name="spe" placeholder="Specialité potentiel... (Dev, CG, S2M, EB)"  required>
+                                <input type="text" name="situation" placeholder="Situation actuel..."  required>
+                              <input type="text" name="commentaire" placeholder="COmmentaires a ajouter... ( facultatif)"  required>
+                            <button class="bouton-form" name="bouton-sauvegarder"> Sauvegarder </button>
+                        </form>
+</div>
+</body>
+</html>
