@@ -27,7 +27,7 @@
 
 <nav class="navbar" role="navigation">
         <div class="nav-logo">
-            <a href="./"><img class="logo" src="./img/logo-nws.png" alt="Logo NWS"></a>
+            <a href="./"><img class="logo" src="img/logo-nws.png" alt="Logo NWS"></a>
         </div>           
         <ul class="navbar-links">
 		<li class="navbar-link lien "><a href="ajout.php">Ajouter un étudiant</a></li>

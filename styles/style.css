@@ -345,3 +345,7 @@ table {
   display: none;
   overflow: hidden;
 }
+
+.none{
+  text-decoration: none;;
+}

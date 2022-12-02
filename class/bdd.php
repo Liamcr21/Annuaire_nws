@@ -11,7 +11,7 @@ class bdd
        
         public function db_connect()
         {
-            $this->connection = mysqli_connect('localhost','root','','annuaire_nws');
+            $this->connection = mysqli_connect('localhost','u801021231_port_dev','Bddorakashi21','u801021231_annuaire_nws');
             if(mysqli_connect_error())
             {
                 die(" Connexion échoué ");
